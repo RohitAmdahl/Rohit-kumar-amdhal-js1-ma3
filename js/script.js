@@ -29,7 +29,7 @@ try{
   //console.log(games[i].rating);
   //console.log(games[i].tags.length);
 
-if (i === 10){
+if (i === 8){
 
   break;
 }
@@ -37,14 +37,14 @@ if (i === 10){
   resultGames . innerHTML += 
 
   ` <div class "results"> ${games[i].name}
-  <h1 class "rating">${games[i].rating}</h1>
-  <h2 class "tags">${games[i].tags.length}</h3>
+  <p class "rating">${games[i].rating}</p>
+  <p class "tags">${games[i].tags.length}</p>
   </div> `;
  
 
  }
 
-}catch(erroe){
+}catch(error){
 
   // console.log(error is found);
    resultGames . innerHTML = "erroe is found ";
