@@ -21,6 +21,8 @@ try{
 
   //console.log(games);
 
+  resultGames.innerHTML = ""; 
+
   for (let i = 0; i < games.length; i++){
 
   console.log(games[i].name);
@@ -45,7 +47,7 @@ if (i === 8){
 }catch(error){
 
   // console.log(error is found);
-   resultGames . innerHTML = "erroe is found ";
+   resultGames . innerHTML = "error is found ";
  
    }
 }
